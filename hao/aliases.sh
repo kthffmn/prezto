@@ -56,6 +56,7 @@ alias grz='git reset --soft HEAD^ && git reset HEAD .'
 
 alias upd="git fetch --all && git fetch -v origin develop:develop && git remote -v prune origin"
 alias up="git fetch --all && git fetch -v origin master:master && git remote -v prune origin"
+alias uph="git fetch --all && git fetch -v origin master:master hatchery:hatchery && git remote -v prune origin"
 alias show="git show"
 
 hash -d w=~/w/dashboard
